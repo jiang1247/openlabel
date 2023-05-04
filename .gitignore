@@ -52,3 +52,26 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+
+# Ignore Visual Studio temporary files, build results, and project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.opendb
+
+# Ignore build folder
+bin/
+
+# Ignore Mac temporary files
+.DS_Store
+*.swp
+
+# Ignore other common temporary files
+*~
+*.bak
+*.tmp
